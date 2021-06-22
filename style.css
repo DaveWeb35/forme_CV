@@ -1,0 +1,26 @@
+/* ajouter image de fond */
+
+    body
+    {
+		background-image: url("augustine.jpg");
+    }
+
+ /* utiliser une police personnalisée via @font-face */
+
+    p
+       {
+    font-family: Gafata-Regular, "Arial Black", Arial, Verdana, sans-serif
+    }
+
+/* définir la bordure d'un élément ; */
+
+    img
+        {
+            border: 3px solid darkgray;
+            box-shadow: 2px 2px 2px black;
+        }
+/* mettre un texte en rouge */
+ .texte_rouge
+ {
+     color: red;
+ }       
